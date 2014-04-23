@@ -659,6 +659,16 @@ public:
     static const char PAF_OFF[];
     static const char RTHDR_ON[];
     static const char RTHDR_OFF[];
+
+    // For lt01wifi, lt013g and lt01lte (exynos4) camera HAL
+    static const char KEY_ISO[];
+    static const char METERING_CENTER[];
+    static const char METERING_SPOT[];
+    static const char METERING_MATRIX[];
+    static const char ISO_AUTO[];
+    static const char ISO_100[];
+    static const char ISO_200[];
+    static const char ISO_400[];
 #endif
 
 #ifdef HTC_CAMERA_HARDWARE

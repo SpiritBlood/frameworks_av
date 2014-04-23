@@ -175,6 +175,16 @@ const char CameraParameters::PAF_ON[] = "on";
 const char CameraParameters::PAF_OFF[] = "off";
 const char CameraParameters::RTHDR_ON[] = "on";
 const char CameraParameters::RTHDR_OFF[] = "off";
+
+// For lt01wifi, lt013g and lt01lte (exynos4) camera HAL
+const char CameraParameters::KEY_ISO[] = "iso";
+const char CameraParameters::METERING_CENTER[] = "center";
+const char CameraParameters::METERING_SPOT[] = "spot";
+const char CameraParameters::METERING_MATRIX[] = "matrix";
+const char CameraParameters::ISO_AUTO[] = "auto";
+const char CameraParameters::ISO_100[] = "ISO100";
+const char CameraParameters::ISO_200[] = "ISO200";
+const char CameraParameters::ISO_400[] = "ISO400";
 #endif
 
 #ifdef HTC_CAMERA_HARDWARE
