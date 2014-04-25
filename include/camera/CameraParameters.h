@@ -659,8 +659,9 @@ public:
     static const char PAF_OFF[];
     static const char RTHDR_ON[];
     static const char RTHDR_OFF[];
+#endif
 
-    // For lt01wifi, lt013g and lt01lte (exynos4) camera HAL
+#ifdef SAMSUNG_EXYNOS_HARDWARE
     static const char KEY_ISO[];
     static const char METERING_CENTER[];
     static const char METERING_SPOT[];

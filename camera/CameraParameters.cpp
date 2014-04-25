@@ -175,8 +175,9 @@ const char CameraParameters::PAF_ON[] = "on";
 const char CameraParameters::PAF_OFF[] = "off";
 const char CameraParameters::RTHDR_ON[] = "on";
 const char CameraParameters::RTHDR_OFF[] = "off";
+#endif
 
-// For lt01wifi, lt013g and lt01lte (exynos4) camera HAL
+#ifdef SAMSUNG_EXYNOS_HARDWARE
 const char CameraParameters::KEY_ISO[] = "iso";
 const char CameraParameters::METERING_CENTER[] = "center";
 const char CameraParameters::METERING_SPOT[] = "spot";
